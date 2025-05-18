@@ -2,7 +2,7 @@
 
 Sebuah website profil mahasiswa lengkap dengan landing page responsif dan dashboard admin untuk mengelola konten. Dibangun dengan menggunakan CodeIgniter 3 dan Bootstrap 5.
 
-![Screenshot Dashboard Admin](images/index.png)
+<img src="images/index.png" alt="Screenshot Dashboard Admin" width="800">
 
 ## Fitur
 
@@ -169,20 +169,28 @@ Terima kasih kepada:
 ## Screenshot
 
 ### Landing Page
-![Landing Page](images/index.png)
-![Landing Page](images/index1.png)
-![Landing Page](images/index2.png)
-![Landing Page](images/index3.png)
+<p align="center">
+  <img src="images/index.png" alt="Landing Page" width="800"><br>
+  <img src="images/index1.png" alt="Landing Page" width="800"><br>
+  <img src="images/index2.png" alt="Landing Page" width="800"><br>
+  <img src="images/index3.png" alt="Landing Page" width="800">
+</p>
 
 ### Dashboard Admin
-![Dashboard Admin](images/dashboard.png)
-![Dashboard Admin](images/dashboard1.png)
-![Dashboard Admin](images/dashboard2.png)
-![Dashboard Admin](images/dashboard3.png)
+<p align="center">
+  <img src="images/dashboard.png" alt="Dashboard Admin" width="800"><br>
+  <img src="images/dashboard1.png" alt="Dashboard Admin" width="800"><br>
+  <img src="images/dashboard2.png" alt="Dashboard Admin" width="800"><br>
+  <img src="images/dashboard3.png" alt="Dashboard Admin" width="800">
+</p>
 
 ### Login Admin
-![Login Admin](images/login.png)
+<p align="center">
+  <img src="images/login.png" alt="Login Admin" width="800">
+</p>
 
 ---
 
-Dibuat dengan 💙 oleh [Anthonio Fernando Jose](https://github.com/prassaaa)
+<p align="center">
+  Dibuat dengan 💙 oleh <a href="https://github.com/prassaaa">Anthonio Fernando Jose</a>
+</p>
