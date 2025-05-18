@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --sidebar-width: 250px;
+    --header-height: 60px;
+    --success-color: #2ecc71;
+    --warning-color: #f39c12;
+    --danger-color: #e74c3c;
+    --light-bg: #f8f9fa;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+}
+
+/* Input file styling */
+.custom-file-button input[type="file"] {
+    margin-left: -2px !important;
+}
+
+.custom-file-button input[type="file"]::-webkit-file-upload-button {
+    display: none;
+}
+
+.custom-file-button input[type="file"]::file-selector-button {
+    display: none;
+}
+
+.custom-file-button label {
+    cursor: pointer;
+}
+
+/* Image preview */
+.img-preview {
+    position: relative;
+    display: inline-block;
+}
+
+.img-preview .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.img-preview:hover .overlay {
+    opacity: 1;
+}
+
+.img-preview .overlay a {
+    color: white;
+    margin: 0 5px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.img-preview .overlay a:hover {
+    background: var(--primary-color);
+    transform: scale(1.1);
+}
+
+/* Responsive tables */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Switch Toggle */
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Animate on hover */
+.hover-animate {
+    transition: all 0.3s;
+}
+
+.hover-animate:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
